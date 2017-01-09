@@ -47,7 +47,7 @@ namespace MixCloudDownloader
             driver.Manage().Timeouts().ImplicitlyWait(TimeSpan.FromSeconds(3));
 
             driver.Navigate().GoToUrl(mixCloudUrl);
-             
+              
             return  driver.PageSource;
         }
 
